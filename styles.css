@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(71, 84, 163);
+    background: linear-gradient(140deg, rgba(71, 84, 163, 0.8) 25%, rgba(240, 99, 71, 0.8) 75%);
+    color: #ffffff; /* Set body text color */
+}
+
+.box {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    background-color: #1a1a1a; /* Set box background color */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    padding: 20px; /* Add padding for text */   
+}
+
+.text {
+    font-family: "Caveat", cursive;
+    color: #ffffff; /* Set text color */
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400; /* Adjust font weight */
+    white-space: normal; /* Allow text to wrap */
+}
